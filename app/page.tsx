@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <Image
           className={styles.HomeImage}
-          src="/HomeImage/HomeImage.jpg"
+          src="/HomePage/HomeImage.jpg"
           alt="HomeImage.jpg HomeImage"
           width={300}
           height={450}
