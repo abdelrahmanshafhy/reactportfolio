@@ -1,12 +1,13 @@
 'use client';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Link from "next/link";
 import { Helmet } from 'react-helmet';
+import emailjs from '@emailjs/browser';
 
-export default function About() {
+export default function Contact() {
     const [showLinks, setShowLinks] = useState(true);
 
     useEffect(() => {
@@ -34,9 +35,25 @@ export default function About() {
         setShowLinks(!showLinks);
     };
 
+    const form = useRef<HTMLFormElement>(null);
+
+    const sendEmail = (e: React.FormEvent) => {
+        e.preventDefault();
+
+        // Please Create Account On emailjs.com And Create New Server And New Template
+        // Add (YOUR_TEMPLATE_ID), (YOUR_PUBLIC_KEY)
+        // See Support PDF file
+        emailjs.sendForm('default_service', 'YOUR_TEMPLATE_ID', form.current?.current, 'YOUR_PUBLIC_KEY')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <main className={styles.main}>
-            <title>Portfolio Website Template | Adam Blog</title>
+            <title>Portfolio Website Template | Adam Contact</title>
             <Helmet>
                 <meta name="description" content="This is a description of my page" />
                 <meta name="keywords" content="react, meta tags, seo" />
@@ -68,48 +85,29 @@ export default function About() {
 
             <div className={styles.center}>
                 <Image
-                    className={styles.BlogImage}
-                    src="/BlogPage/BlogImage.jpg"
-                    alt="BlogImage.jpg BlogImage"
-                    width={14999}
-                    height={2149}
+                    className={styles.ContactImage}
+                    src="/ContactPage/ContactImage.png"
+                    alt="ContactImage.png ContactImage"
+                    width={4480}
+                    height={5870}
                 />
-                <div className={styles.text}>
-                    <h1>Adam&apos;s World</h1>
-                    <p className={styles.description}>
-                        <strong>Welcome</strong> to my blog, where I share insights and experiences as a seasoned designer and programmer. With a passion for creating stunning visuals and functional code, I&apos;m excited to take you on a journey through the world of digital design and development.
-                    </p>
+                <div className={styles.contactForm}>
+                    <div className={styles.text}>
+                        <h1>Contact With Me</h1>
+                        <p className={styles.description}>
+                            <strong>Welcome</strong>
+                        </p>
+                    </div>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <label>Name <p>*</p></label>
+                        <input type="text" name="from_name" />
+                        <label>Email <p>*</p></label>
+                        <input type="email" name="email_id" />
+                        <label>Message <p>*</p></label>
+                        <textarea name="message" />
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
-            </div>
-
-            <div className={styles.content}>
-                <Link href="/blog/ProgrammingArticle" className={styles.ArticleBox}>
-                    <Image
-                        className={styles.ArticleBoxImage}
-                        src="/BlogPage/ProgrammingImage.jpg"
-                        alt="ProgrammingImage.jpg ProgrammingImage"
-                        width={300}
-                        height={200} />
-                    <p>Breaking Down Barriers: Empowering Anyone to Learn Programming with AI</p>
-                </Link>
-                <Link href="/blog/GraphicDesignArticle" className={styles.ArticleBox}>
-                    <Image
-                        className={styles.ArticleBoxImage}
-                        src="/BlogPage/DesignImage.jpg"
-                        alt="DesignImage.jpg DesignImage"
-                        width={300}
-                        height={200} />
-                    <p>Mastering the Art of Graphic Design: Tips and Techniques</p>
-                </Link>
-                <Link href="/blog/UIUXDesignArticle" className={styles.ArticleBox}>
-                    <Image
-                        className={styles.ArticleBoxImage}
-                        src="/BlogPage/UIUXImage.jpg"
-                        alt="UIUXImage.jpg UIUXImage"
-                        width={300}
-                        height={200} />
-                    <p>UI/UX Design: A Comprehensive Guide to Creating Engaging User Experiences</p>
-                </Link>
             </div>
 
             <footer className={styles.footer}>
@@ -117,7 +115,7 @@ export default function About() {
                     <Link href="/">Home</Link>
                     <Link href="/about">About</Link>
                     <Link href="/blog">Blog</Link>
-                    <Link href="/projects">Projects</Link>
+                    <Link href="/project">Projects</Link>
                 </div>
                 <div className={styles.SocialMediaLinks}>
                     <Link href="https://www.youtube.com/">
