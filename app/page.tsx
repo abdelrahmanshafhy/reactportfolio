@@ -211,7 +211,7 @@ export default function Home() {
           <div className={styles.boxServices}>
             <Image
               className={styles.BoxImg}
-              src="/NEW VIDEO.png"
+              src="/HomePage/NEW VIDEO.png"
               alt="NEW VIDEO.png NEW VIDEO"
               width={533}
               height={300}
@@ -226,7 +226,7 @@ export default function Home() {
           <div className={styles.boxServices}>
             <Image
               className={styles.BoxImg}
-              src="/New Portfolio.png"
+              src="/HomePage/New Portfolio.png"
               alt="New Portfolio.png New Portfolio"
               width={533}
               height={300}
