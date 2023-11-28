@@ -86,7 +86,7 @@ export default function Contact() {
             <div className={styles.center}>
                 <Image
                     className={styles.ContactImage}
-                    src="/ContactImage.png"
+                    src="/ContactPage/ContactImage.png"
                     alt="ContactImage.png ContactImage"
                     width={4480}
                     height={5870}
