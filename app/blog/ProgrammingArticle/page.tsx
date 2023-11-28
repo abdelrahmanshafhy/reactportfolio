@@ -86,7 +86,7 @@ export default function blogProgrammingArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage1.jpg"
+                        src="/ArticlesPages/ArticleImage1.jpg"
                         alt="ArticleImage1.jpg ArticleImage1"
                         width={450}
                         height={450} />
@@ -103,7 +103,7 @@ export default function blogProgrammingArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage2.jpg"
+                        src="/ArticlesPages/ArticleImage2.jpg"
                         alt="ArticleImage2.jpg ArticleImage2"
                         width={450}
                         height={450} />
@@ -121,7 +121,7 @@ export default function blogProgrammingArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage3.jpg"
+                        src="/ArticlesPages/ArticleImage3.jpg"
                         alt="ArticleImage3.jpg ArticleImage3"
                         width={450}
                         height={450} />
@@ -139,7 +139,7 @@ export default function blogProgrammingArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage4.jpg"
+                        src="/ArticlesPages/ArticleImage4.jpg"
                         alt="ArticleImage4.jpg ArticleImage4"
                         width={450}
                         height={450} />
