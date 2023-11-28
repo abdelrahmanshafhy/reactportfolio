@@ -69,7 +69,7 @@ export default function About() {
             <div className={styles.center}>
                 <Image
                     className={styles.ProjectsImage}
-                    src="/ProjectsImage.jpg"
+                    src="/ProjectsPage/ProjectsImage.jpg"
                     alt="ProjectsImage.jpg ProjectsImage"
                     width={14999}
                     height={2149}
@@ -86,7 +86,7 @@ export default function About() {
                 <Link href="/blog/ProgrammingArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage1.jpg"
+                        src="/ProjectsPage/ProjectsImage1.jpg"
                         alt="ProjectsImage1.jpg ProjectsImage1"
                         width={3500}
                         height={2500} />
@@ -95,7 +95,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
@@ -117,7 +117,7 @@ export default function About() {
                 <Link href="/blog/GraphicDesignArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage2.jpg"
+                        src="/ProjectsPage/ProjectsImage2.jpg"
                         alt="ProjectsImage2.jpg ProjectsImage2"
                         width={3500}
                         height={2500} />
@@ -126,7 +126,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
@@ -148,7 +148,7 @@ export default function About() {
                 <Link href="/blog/UIUXDesignArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage3.jpg"
+                        src="/ProjectsPage/ProjectsImage3.jpg"
                         alt="ProjectsImage3.jpg ProjectsImage3"
                         width={3500}
                         height={2500} />
@@ -157,7 +157,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
@@ -179,7 +179,7 @@ export default function About() {
                 <Link href="/blog/UIUXDesignArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage4.jpg"
+                        src="/ProjectsPage/ProjectsImage4.jpg"
                         alt="ProjectsImage4.jpg ProjectsImage4"
                         width={3500}
                         height={2500} />
@@ -188,7 +188,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
@@ -210,7 +210,7 @@ export default function About() {
                 <Link href="/blog/UIUXDesignArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage5.jpg"
+                        src="/ProjectsPage/ProjectsImage5.jpg"
                         alt="ProjectsImage5.jpg ProjectsImage5"
                         width={3500}
                         height={2500} />
@@ -219,7 +219,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
@@ -241,7 +241,7 @@ export default function About() {
                 <Link href="/blog/UIUXDesignArticle" className={styles.ProjectBox}>
                     <Image
                         className={styles.ProjectBoxImage}
-                        src="/ProjectsImage6.jpg"
+                        src="/ProjectsPage/ProjectsImage6.jpg"
                         alt="ProjectsImage6.jpg ProjectsImage6"
                         width={3500}
                         height={2500} />
@@ -250,7 +250,7 @@ export default function About() {
                         <div className={styles.MyInfo}>
                             <Image
                                 className={styles.ProfileImage}
-                                src="/ProfileImage.jpg"
+                                src="/ProjectsPage/ProfileImage.jpg"
                                 alt="ProfileImage.jpg"
                                 width={180}
                                 height={180}
