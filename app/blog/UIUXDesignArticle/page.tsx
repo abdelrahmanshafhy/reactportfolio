@@ -87,7 +87,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage5.jpg"
+                        src="/ArticlesPages/ArticleImage5.jpg"
                         alt="ArticleImage5.jpg ArticleImage5"
                         width={450}
                         height={450} />
@@ -106,7 +106,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage6.jpg"
+                        src="/ArticlesPages/ArticleImage6.jpg"
                         alt="ArticleImage6.jpg ArticleImage6"
                         width={450}
                         height={450} />
@@ -126,7 +126,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage7.jpg"
+                        src="/ArticlesPages/ArticleImage7.jpg"
                         alt="ArticleImage7.jpg ArticleImage7"
                         width={450}
                         height={450} />
@@ -144,7 +144,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage8.jpg"
+                        src="/ArticlesPages/ArticleImage8.jpg"
                         alt="ArticleImage8.jpg ArticleImage8"
                         width={450}
                         height={450} />
@@ -162,7 +162,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage8.jpg"
+                        src="/ArticlesPages/ArticleImage8.jpg"
                         alt="ArticleImage8.jpg ArticleImage8"
                         width={450}
                         height={450} />
@@ -181,7 +181,7 @@ export default function blogUIUXDesignArticle() {
                     </p>
                     <Image
                         className={styles.ArticleImage}
-                        src="/ArticleImage8.jpg"
+                        src="/ArticlesPages/ArticleImage8.jpg"
                         alt="ArticleImage8.jpg ArticleImage8"
                         width={450}
                         height={450} />
