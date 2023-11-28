@@ -82,7 +82,7 @@ export default function About() {
                 </div>
                 <Image
                     className={styles.HomeImage}
-                    src="/AboutPageImage.png"
+                    src="/AboutPage/AboutPageImage.png"
                     alt="AboutPageImage.png AboutPageImage"
                     width={350}
                     height={525}
