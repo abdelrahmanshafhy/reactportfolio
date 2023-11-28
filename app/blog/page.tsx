@@ -69,7 +69,7 @@ export default function About() {
             <div className={styles.center}>
                 <Image
                     className={styles.BlogImage}
-                    src="/BlogImage.jpg"
+                    src="/BlogPage/BlogImage.jpg"
                     alt="BlogImage.jpg BlogImage"
                     width={14999}
                     height={2149}
@@ -86,7 +86,7 @@ export default function About() {
                 <Link href="/blog/ProgrammingArticle" className={styles.ArticleBox}>
                     <Image
                         className={styles.ArticleBoxImage}
-                        src="/ProgrammingImage.jpg"
+                        src="/BlogPage/ProgrammingImage.jpg"
                         alt="ProgrammingImage.jpg ProgrammingImage"
                         width={300}
                         height={200} />
@@ -95,7 +95,7 @@ export default function About() {
                 <Link href="/blog/GraphicDesignArticle" className={styles.ArticleBox}>
                     <Image
                         className={styles.ArticleBoxImage}
-                        src="/DesignImage.jpg"
+                        src="/BlogPage/DesignImage.jpg"
                         alt="DesignImage.jpg DesignImage"
                         width={300}
                         height={200} />
@@ -104,7 +104,7 @@ export default function About() {
                 <Link href="/blog/UIUXDesignArticle" className={styles.ArticleBox}>
                     <Image
                         className={styles.ArticleBoxImage}
-                        src="/UIUXImage.jpg"
+                        src="/BlogPage/UIUXImage.jpg"
                         alt="UIUXImage.jpg UIUXImage"
                         width={300}
                         height={200} />
